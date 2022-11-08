@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+
+p {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+.btn.btn-primary {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn.btn-primary:hover {
+  background-color: #eea236;
+  border-color: #eea236;
+}
+.btn.btn-secondary {
+  background-color: #304fb4;
+  border-color: #383ad4;
+  border-radius: 50px;
+}
+.btn.btn-secondary:hover {
+  background-color: #7272a7;
+  border-color: #8687aa;
+}
+
+a {
+  color: #5670e4;
+  font-size: large;
+}
+
+.card.p-2 {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgb(168, 223, 204);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
